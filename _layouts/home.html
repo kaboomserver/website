@@ -24,7 +24,7 @@ layout: default
 			News
 		</span>
 		{% for post in site.posts limit:1 %}
-			{{ post.content | truncatewords: 35 }}
+			{{ post.content }}
 		{% endfor %}
 	</a>
 
